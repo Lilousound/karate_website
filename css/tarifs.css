@@ -1,0 +1,33 @@
+.tarifs-body {
+  background-image: linear-gradient(rgba(249, 246, 246, 0.955),rgba(233, 242, 245, 0.602)), url("../img/tori.jpg");
+  background-attachment: fixed;
+}
+
+table {
+  margin: 50px auto;
+  width: 60%;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th{
+  background-color: rgb(252, 254, 255, 80%);
+  font-weight: bold;
+}
+td{
+  background-color: rgba(242, 242, 242 , 50%);
+  font-weight:lighter;
+}
+
+.txt {
+  margin-top: 30px;
+  margin-left: 200px;
+  color: var(--primary-color);
+
+}
