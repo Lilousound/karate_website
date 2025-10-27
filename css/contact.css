@@ -1,0 +1,47 @@
+  .contact-body {
+  background-image: linear-gradient(rgba(249, 246, 246, 0.829),rgba(233, 242, 245, 0.602)), url("../img/fuji-pagode.jpg");
+  background-attachment: fixed;
+}
+
+
+.formulaire-contact {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 40px auto;
+  background-color: rgba(242, 242, 242, 0.75);
+  font-family: var(--main-font);
+}
+
+.inputs {
+  margin-bottom: 15px;
+}
+.inputs label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.inputs input, .inputs textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+
+}
+.inputs textarea {
+  height: 100px;
+}
+.bouton-envoi {
+  background-color: var(--logo-color);
+  font-family: var(--main-font);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.bouton-envoi:hover {
+  background-color: #690909;
+}
