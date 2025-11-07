@@ -76,7 +76,7 @@ header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(41, 42, 43, 0.5)), url(../img/dojo.jpg);
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 320px;
   object-fit: fill;
   position: relative;
   top: -80px;
@@ -85,12 +85,11 @@ header{
 }
 
 .banner h2{
-  padding-top: 15vh;
-  padding-left: 10vh;
+  padding: 15vh 10vh 0 5vh;
   font-size: 30px;
 }
 .banner p {
-  padding-left: 10vh;
+  padding: 0 10vh 0 5vh;
 }
 .banner blockquote{
   font-style: italic;
@@ -109,17 +108,19 @@ section{
   margin: -50px 100px;
   display: flex;
   align-items: center;
-  padding-right: 150px;
+  padding-right: 120px;
   text-align: justify;
   gap: 30px;
-  font-size:medium;
+  font-size: medium;
 }
 .intro p{
   margin-top: -50px;
 }
 .intro2 {
-  margin: -50px 300px;
+  margin: -50px auto;
   display: flex;
+  text-align: justify;
+  width: 80%;
   gap: 40px;
 }
 .intro3 {
@@ -136,68 +137,96 @@ section{
 
 @media (max-width: 1280px) {
   #bushido {
-    font-size: 1em;
-  }
-.intro2 {
-    margin: 10px;
-    flex-direction: column;
-    align-items: center;
+    font-size: 1.4em;
   }
   .intro, .intro3{
     font-size: 15px;
   }
-  .intro{
+  .intro {
     padding-right: 50px;
+  }
+  .intro2 {
+    margin: 40px auto;
+  }
+  .intro3 {
+    margin-top: -50px;
+  }
+  section img{
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
   }
 }
 
 
 @media (max-width: 1024px) {
   #bushido {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
-  .intro, .intro3 {
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
-    text-align: justify;
-    font-size: 15px;
-  }
-  section img{
-    width: 400px;
-    height: auto;
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-
-  }
-}
-
-@media (max-width: 900px) {
-  #bushido {
-    font-size: 0.5em;
-  }
-  .menu ul{
-  font-size: 18px;
+  .banner h2, .banner p {
+    padding-left: 5vh;
   }
   .banner h2{
   font-size: 20px;
   }
   .banner p {
+    font-size: 14px;
+  }
+  .intro, .intro3 {
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    text-align: justify;
     font-size: 15px;
   }
+  .intro{
+    margin-top: -50px;
+  }
+  .intro2{
+    width: 90%;
+    margin: auto;
+  }
+  section p {
+    width: 90%;
+  }
+  .menu ul{
+  font-size: 20px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  #bushido {
+    font-size: 0.8em;
+  }
+  .banner h2, .banner p {
+    padding: 0 3vh;
+    margin: auto;
+  }
+  .banner h2{
+  padding-top: 12vh;
+  }
+
+  .intro p {
+    margin-top: -30px;
+  }
+  .intro2{
+    flex-direction: column;
+  }
+  .menu ul{
+  font-size: 18px;
+  }
   section img{
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: auto;
   }
 }
 
 @media (max-width: 540px) {
-  #bushido {
-    font-size: 0.4em;
-  }
   .menu ul{
   font-size: 16px;
   gap: 20px;
@@ -205,9 +234,13 @@ section{
   }
   .banner h2{
   font-size: 18px;
+  padding-top: 11vh
   }
   .banner p {
     font-size: 13px;
+  }
+  section img {
+    width: 280px;
   }
 
 }
