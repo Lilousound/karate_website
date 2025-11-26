@@ -11,16 +11,14 @@ table {
   font-family: var(--main-font);
   font-size: 16px;
 }
-
 th, td {
   padding: 10px;
 }
-
-th{
+th {
   background-color: rgb(252, 254, 255, 80%);
   font-weight: bold;
 }
-td{
+td {
   background-color: rgba(242, 242, 242 , 50%);
   font-weight:lighter;
 }
