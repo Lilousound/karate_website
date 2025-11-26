@@ -71,6 +71,10 @@ header{
 .menu li{
   list-style: none;
 }
+label, #toggle{
+    display: none;
+}
+
 
 .banner{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(41, 42, 43, 0.5)), url(../img/dojo.jpg);
@@ -131,6 +135,10 @@ section{
   gap: 30px;
   font-size:medium;
 }
+
+
+
+
 
 
 /* !MEDIA QUERIES */
@@ -224,6 +232,51 @@ section{
     height: auto;
     margin: auto;
   }
+  nav{
+    height: 60px;
+    }
+  #menu{
+      display: none;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      background-color: rgba(11, 11, 12, 0.9);
+      margin: 22px auto;
+      padding: 30px auto;
+  }
+  nav label{
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 30px 0 auto;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+  }
+  #toggle:checked + ul {
+        display: flex;
+    }
+  .schedule {
+    max-width: 80%;
+  }
+  .txt {
+    font-size: 14px;
+    margin: 20px auto;
+    padding: 30px;
+  }
+    table{
+    font-size: 13px;
+  }
+  .instructors {
+    max-width: 80%;
+  }
+  .formulaire-contact {
+    max-width: 70%;
+  }
+  footer{
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -242,5 +295,10 @@ section{
   section img {
     width: 280px;
   }
-
+  table{
+    font-size: 12px;
+  }
+  footer{
+    font-size: 12px;
+  }
 }
