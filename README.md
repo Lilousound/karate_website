@@ -22,6 +22,13 @@ This project is a **static website** designed for a Karate club. It features:
 | **HTML5** | Semantic structure for accessibility and SEO. |
 | **CSS3** | Styling with Flexbox/Grid for responsive layouts. |
 
+---
+## **🎨 Design Choices**
+
+- **Color palette**: Inspired by traditional karate values (e.g., red for energy, black for discipline).
+- **Typography**: Clean and readable fonts to enhance user experience.
+- **Layout**: Intuitive navigation to highlight key information (class schedules, instructor bios, contact details).
+
 
 ---
 ## 📧 **Get in Touch**
