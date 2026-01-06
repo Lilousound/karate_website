@@ -30,14 +30,14 @@ This project is a **static website** designed for a Karate club. It features:
 - **Layout**: Intuitive navigation to highlight key information (class schedules, instructor bios, contact details).
 
 ---
-
 ## Why This Project?
 
-- **Portfolio Piece**: Showcases my HTML/CSS/JS skills and UX design for a real client.
-- **Originality**: A meaningful project focused on local ecology and community engagement.
-- **Freelance Potential**: Ideal for attracting similar missions (association websites, eco-friendly projects).
+- **Portfolio Piece**: Demonstrates my **HTML/CSS** skills and ability to create a **clean, responsive, and user-friendly** website for a real-world use case (sports clubs, local associations).
+- **Originality**: A niche project combining **martial arts aesthetics** with modern web design, perfect for showcasing creativity and attention to detail.
+- **Freelance Potential**: Ideal for attracting clients in the **sports, fitness, or local business** sectors—simple yet professional websites that highlight activities, schedules, and community engagement.
+- **Learning Opportunity**: Strengthened my understanding of **semantic HTML, responsive layouts, and UX best practices** for small businesses and associations.
 
---- 
+---
 
 ## 📢 Contribution & Feedback
 This project is open source! Contributions and feedback are welcome:
