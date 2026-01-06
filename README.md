@@ -29,6 +29,21 @@ This project is a **static website** designed for a Karate club. It features:
 - **Typography**: Clean and readable fonts to enhance user experience.
 - **Layout**: Intuitive navigation to highlight key information (class schedules, instructor bios, contact details).
 
+---
+
+## Why This Project?
+
+- **Portfolio Piece**: Showcases my HTML/CSS/JS skills and UX design for a real client.
+- **Originality**: A meaningful project focused on local ecology and community engagement.
+- **Freelance Potential**: Ideal for attracting similar missions (association websites, eco-friendly projects).
+
+--- 
+
+## 📢 Contribution & Feedback
+This project is open source! Contributions and feedback are welcome:
+
+Suggestions: New features, UI improvements, or bug fixes.
+Issues: Open an issue or contact me directly.
 
 ---
 ## 📧 **Get in Touch**
